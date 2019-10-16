@@ -1,10 +1,5 @@
 #include "poemsort.h"
 
-struct String{
-    char *start;
-    int len;
-};
-
 /*!
 This func recognize file parameters
 \param[in] file file pointer
