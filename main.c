@@ -1,5 +1,8 @@
 #include <poemsort.h>
 
+const char INPUT_FILE[] = "E:/Programming/NewOnegin/hamlet.txt";
+const char OUTPUT_FILE[] = "E:/Programming/NewOnegin/hamlet-for-mathmatics.txt";
+
 int main()
 {
     printf("%s\n", INPUT_FILE);
