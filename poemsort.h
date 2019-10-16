@@ -7,6 +7,11 @@
 #include <ctype.h>
 #include <assert.h>
 
+struct String{
+    char *start;
+    int len;
+};
+
 void file_params(FILE* file, int* nCount, long int* charCount);
 char* file_to_array(FILE* file, long int charCount);
 struct String * text2lines(char text[], int nCount);
